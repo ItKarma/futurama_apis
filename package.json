@@ -1,0 +1,38 @@
+{
+  "name": "coded.apis",
+  "version": "1.0.0",
+  "description": "backend for my website coded.dream",
+  "type": "module",
+  "main": "./src/index.js",
+  "scripts": {
+    "prepare": "husky install",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coded-dream/coded.apis.git"
+  },
+  "keywords": [
+    "apis-rest",
+    "apis-express",
+    "node-api",
+    "coded.dream"
+  ],
+  "author": "danzok",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coded-dream/coded.apis/issues"
+  },
+  "homepage": "https://github.com/coded-dream/coded.apis#readme",
+  "devDependencies": {
+    "husky": "^8.0.2",
+    "lint-staged": "^13.1.0",
+    "nodemon": "^2.0.20",
+    "standard": "^17.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0"
+  }
+}
