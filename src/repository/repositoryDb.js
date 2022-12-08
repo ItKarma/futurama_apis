@@ -5,7 +5,8 @@ export default class User {
     return user.create({ email, name, password })
   }
 
-  async findUser (email) {
-    return user.find({ email })
+  async findUser (userEmail) {
+    const finduser = await user.find({ email: userEmail })
+    return finduser
   }
 }
