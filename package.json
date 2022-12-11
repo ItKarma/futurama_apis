@@ -1,7 +1,7 @@
 {
-  "name": "coded.apis",
+  "name": "futurama.apis",
   "version": "1.0.0",
-  "description": "backend for my website coded.dream",
+  "description": "backend for my website futurama-apis",
   "type": "module",
   "main": "./src/index.js",
   "scripts": {
@@ -11,20 +11,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coded-dream/coded.apis.git"
+    "url": "git+https://github.com/danzok/futurama_apis.git"
   },
   "keywords": [
     "apis-rest",
     "apis-express",
     "node-api",
-    "coded.dream"
+    "futurama.apis"
   ],
   "author": "danzok",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/coded-dream/coded.apis/issues"
+    "url": "https://github.com/danzok/futurama_apis/issues"
   },
-  "homepage": "https://github.com/coded-dream/coded.apis#readme",
+  "homepage": "https://github.com/danzok/futurama_apis#readme",
   "devDependencies": {
     "husky": "^8.0.2",
     "lint-staged": "^13.1.0",
