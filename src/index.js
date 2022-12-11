@@ -1,5 +1,5 @@
 import express from 'express'
-import router from './routes/routerSingUp.js'
+import router from './routes/routerAuth.js'
 import connectionDb from './db/connection.js'
 const app = express()
 

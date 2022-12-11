@@ -8,7 +8,7 @@ import secret from '../config/config.js'
 function gerenateToken (params = {}) {
   return jwt.sign(params, secret.secrete, { expiresIn: 84600 })
 }
-export default class Controller {
+export default class authController {
   async singUp (req, res) {
     try {
       const { email, name, password, reappassword } = req.body
