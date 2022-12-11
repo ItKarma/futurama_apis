@@ -5,6 +5,7 @@ import Auth from '../middlewares/auth.js'
 const router = Router()
 
 router.use(Auth)
-router.post('/ok', new ApisController().ok)
+
+router.get('/', new ApisController().ok)
 
 export default router
