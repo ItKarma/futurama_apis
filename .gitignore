@@ -1,3 +1,4 @@
+.env
 .husky
 package-lock.json
 # Logs
