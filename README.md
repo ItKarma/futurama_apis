@@ -16,6 +16,10 @@ install development dependencies
 
 ``` npm install ```
 
+add your database in the file .env.example
+
+```URL_DB= your db  the mongodb atlas ```
+
 running our app 
 
 ```npm start```
