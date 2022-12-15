@@ -23,3 +23,8 @@ add your database in the file .env.example
 running our app 
 
 ```npm start```
+
+
+endPoint and exemaples
+
+https://futurama-apis.onrender.com/
