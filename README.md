@@ -1,5 +1,5 @@
 # coded.apis
-this is a repository with apis rest for an organization project coded-dream, ( open-source );
+this is a repository with apis rest for a project futuramawebsite , ( open-source );
 We are open to new ideas and help.
 
 # to contribute.
@@ -10,7 +10,7 @@ to contribute to this project please follow the code pattern,install development
 
 clone the project
 
-``` git clone https://github.com/coded-dream/coded.apis ```
+``` git clone https://github.com/danzok/futurama_apis.git ```
 
 install development dependencies
 
