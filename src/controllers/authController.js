@@ -22,6 +22,7 @@ export default class authController {
 
   async auth (req, res) {
     const { email, password } = req.body
+    console.log(password)
     try {
       const user = await new User().findUser(email)
 

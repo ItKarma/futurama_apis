@@ -3,7 +3,7 @@ import AuthController from '../controllers/authController.js'
 
 const router = Router()
 
-router.post('/auth/singup', new AuthController().singUp)
-router.post('/auth/Authenticate', new AuthController().auth)
+router.post('/auth/register', new AuthController().singUp)
+router.post('/auth/login', new AuthController().auth)
 
 export default router
