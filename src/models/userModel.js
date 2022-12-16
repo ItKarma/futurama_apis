@@ -14,6 +14,10 @@ const User = Schema({
   password: {
     type: String,
     require: true
+  },
+  apiKey: {
+    type: String,
+    require: false
   }
 })
 
