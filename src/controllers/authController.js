@@ -46,7 +46,7 @@ export default class authController {
 
       return res.json({ user, token: gerenateToken({ id: user._id }) })
     } catch (error) {
-      return res.json({ erro: error })
+      return res.status(400).json({ erro: error })
     }
   }
 }
