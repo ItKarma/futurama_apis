@@ -15,4 +15,9 @@ export default class UserRepositorie {
     const finduser = await user.find({ email: userEmail })
     return finduser
   }
+
+  async saveKey (email, key) {
+    const value = await user.findOneAndUpdate({ email }, { $set: { apiKey: key } }, { upsert: true })
+    return value
+  }
 }

@@ -13,6 +13,7 @@ export default class KeyRepositorie {
 
   async findKey (apiKey) {
     const value = await Key.find({ apiKey })
+    console.log(value)
     return value
   }
 
