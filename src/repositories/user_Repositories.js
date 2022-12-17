@@ -1,3 +1,4 @@
+
 import user from '../models/userModel.js'
 
 export default class UserRepositorie {
@@ -13,10 +14,5 @@ export default class UserRepositorie {
   async findUsers (userEmail) {
     const finduser = await user.find({ email: userEmail })
     return finduser
-  }
-
-  async Key (key) {
-    const findKey = await user.findOne({ api_key: key })
-    return findKey
   }
 }

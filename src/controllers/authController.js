@@ -4,6 +4,7 @@ import jwt from 'jsonwebtoken'
 import bcrypt from 'bcrypt'
 
 import secret from '../config/config.js'
+import KeyUserCase from '../service/key-use-case.js'
 
 function gerenateToken (params = {}) {
   return jwt.sign(params, secret.secrete, { expiresIn: 84600 })
@@ -47,6 +48,16 @@ export default class authController {
       return res.json({ user, token: gerenateToken({ id: user._id }) })
     } catch (error) {
       return res.status(400).json({ erro: error })
+    }
+  }
+
+  async ApiKey (req, res) {
+    const { email, key } = req.body
+    try {
+      const resKey = await new KeyUserCase().keyCase(email, key)
+      res.json(resKey)
+    } catch (error) {
+      res.status(400).json({ message: error })
     }
   }
 }

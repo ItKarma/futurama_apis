@@ -1,4 +1,5 @@
 import { Schema, model } from 'mongoose'
+// import Key from './keyModel.js'
 import bcrypt from 'bcrypt'
 
 const User = Schema({
@@ -8,6 +9,7 @@ const User = Schema({
 
   },
   email: {
+    unic: true,
     type: String,
     require: true
   },
@@ -16,6 +18,7 @@ const User = Schema({
     require: true
   },
   apiKey: {
+    unic: true,
     type: String,
     require: false
   }
