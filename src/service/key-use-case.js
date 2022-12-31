@@ -1,4 +1,4 @@
-import KeyRepositorie from '../repositories/Key_Repositories.js'
+import KeyRepositorie from '../repositories/key_Repositories.js'
 import UserRepositorie from '../repositories/user_Repositories.js'
 
 class KeyUserCase {
