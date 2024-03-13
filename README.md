@@ -1,3 +1,5 @@
+A hospedagem desta api esta suspensa , pois ouve uma modulo incompativel com a versao atual do node, sera descontinuada.
+
 # coded.apis
 this is a repository with apis rest for a project futuramawebsite , ( open-source );
 We are open to new ideas and help.
